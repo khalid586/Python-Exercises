@@ -1,29 +1,29 @@
-# items = ["bread", "pasta", "milk", "choco"]
-# mylist = ["soap", "shampoo", "soda"]
-# print(items[0])
-# print(items)
-# items[0] = "rice"
-# print(items)
-# print(items[:2])  # from beginning to 1(before 2)
-# print(items[2:])  # print from index 2 till the last index
-# items.append("vegetable")  # adds vegetable at the end of the list
-# print(items)
-# items.insert(2, "butter")  # inserts butter at index 2
-# items += mylist  # we can add another list inside a list (combine two lists) .
-# print(items)
-# print(len(items))  # length of the list
-# print("butter" in items)  # checks whether an item is present or not in list
-# print("cola" in items)
-#
-# # we can delete item from a list by below mentioned techniques
-# del items[0]
-# print(items)
-#
-# items = [ele for ele in items if ele != "milk"]
-# print(items)
-# items.remove("vegetable")
-# items.pop(3)  # remove item at index 3
-# print(items)
+items = ["bread", "pasta", "milk", "choco"]
+mylist = ["soap", "shampoo", "soda"]
+print(items[0])
+print(items)
+items[0] = "rice"
+print(items)
+print(items[:2])  # from beginning to 1(before 2)
+print(items[2:])  # print from index 2 till the last index
+items.append("vegetable")  # adds vegetable at the end of the list
+print(items)
+items.insert(2, "butter")  # inserts butter at index 2
+items += mylist  # we can add another list inside a list (combine two lists) .
+print(items)
+print(len(items))  # length of the list
+print("butter" in items)  # checks whether an item is present or not in list
+print("cola" in items)
+
+# we can delete item from a list by below mentioned techniques
+del items[0]
+print(items)
+
+items = [ele for ele in items if ele != "milk"]
+print(items)
+items.remove("vegetable")
+items.pop(3)  # remove item at index 3
+print(items)
 
 # Exercise - 1
 # Let us say your expense for every month are listed below,
