@@ -1,1 +1,1 @@
-print("trial version 2.0")
+print("trial version 2")
