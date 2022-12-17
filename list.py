@@ -46,8 +46,6 @@ print(items)
 # 5. You returned an item that you bought in a month of April and
 # got a refund of 200$. Make a correction to your monthly expense list
 
-
-
 # Exercise- 2
 # You have a list of your favourite marvel super heroes.
 # heroes=['spider man','thor','hulk','iron man','captain america']
