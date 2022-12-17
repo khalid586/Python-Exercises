@@ -73,3 +73,14 @@ print(expenses)
 #    Do that with one line of code.
 # 5. Sort the heroes list in alphabetical order (Hint. Use dir() functions to list down all functions available
 # in list)
+heroes=['spider man','thor','hulk','iron man','captain america']
+print(len(heroes))  # answer of 1
+heroes.append("black panther")  # answer of 2
+print(heroes)
+heroes.remove("black panther")
+heroes.insert(3, "black panther")  # answer of 3
+print(heroes)
+heroes[1:3] = "doctor strange"  # answer of 4
+print(heroes)
+heroes.sort()  # answer of 5
+print(heroes)
