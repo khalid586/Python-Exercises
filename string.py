@@ -8,3 +8,7 @@ print("this is beginning to 3: " + text[:3])   # prints from the beginning to 2n
 text = '''this will store multiline 
 string. To store multiline string we have to use triple quotes.'''
 print(text)
+first = "khalid"
+second = "abdullah"
+full_name = first + ' ' + second  # this is string concatenation
+print(full_name)
