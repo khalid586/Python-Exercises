@@ -55,7 +55,7 @@ print(spentInQuarter)  # answer of 2
 If2000spent = 2000 in expenses
 print(If2000spent)  # answer of 3
 expenses.append(1980)  # answer of 4
-expenses[3] += 200  # answer of 5
+expenses[3] -= 200  # answer of 5
 print(expenses)
 
 
