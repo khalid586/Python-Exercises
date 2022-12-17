@@ -80,7 +80,7 @@ print(heroes)
 heroes.remove("black panther")
 heroes.insert(3, "black panther")  # answer of 3
 print(heroes)
-heroes[1:3] = "doctor strange"  # answer of 4
+heroes[1:3] = ['doctor strange']  # answer of 4
 print(heroes)
 heroes.sort()  # answer of 5
 print(heroes)
