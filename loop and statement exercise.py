@@ -21,3 +21,13 @@ if cityName1 and cityName2 in bangladesh or cityName1 and cityName2 in india or 
     print("Both cities belong to same country")
 else:
     print("Both cities doesn't belong to same country")
+
+# Exercise 2
+sugar = int(input())
+
+if sugar < 80:
+    print("Low sugar level")
+elif sugar > 100:
+    print("High sugar level")
+else:
+    print("Normal sugar level")
