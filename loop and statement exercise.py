@@ -52,13 +52,17 @@ for i in range(len(expense_list)):
         print(f"The expense is found in month {i + 1}")
 if found == 0:
     print(f"{expense} not found in the list")
+done = 0
 for i in range(1, 6):
     ans = input("Are you tired?")
     if ans == "yes":
         print("You did not finished your race")
-print("Congratulations on finishing the race")
-
+        done = 1
+        break
+if done == 0:
+    print("Congratulations on finishing the race")
+char = '*'
 for i in range(1, 6):
     for j in range(1, i+1):
-        print('*', end='')
+        print(char, end='')
     print()
