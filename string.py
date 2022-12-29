@@ -19,7 +19,8 @@
 # Create a variable to store the string "Earth revolves around the sun"
 # Print "revolves" using slice operator
 # Print "sun" using negative index
-# Create two variables to store how many fruits and vegetables you eat in a day. Now Print "I eat x veggies and y fruits "
+# Create two variables to store how many fruits and vegetables you eat in a day. Now Print "I eat x veggies
+# and y fruits "
 #  "daily" where x and y presents vegetables and fruits that you eat everyday. Use python f string for this.
 # I have a string variable called s='maine 200 banana khaye'. This of course is a wrong statement, the correct statement
 # is 'maine 10 samosa khaye'. Replace incorrect words in original strong with new ones and print the new string.
@@ -32,3 +33,12 @@ address = street + '\n' + city + '\n' + country
 print(address)
 address = f"{street}\n{city}\n{country}"
 print(address)
+str = "Earth revolves around the sun"
+print(str[6:14])
+print(str[-3:])
+fruits = 12
+veggies = 15
+print(f"I eat {veggies} veggies and {fruits} fruits daily")
+s = 'maine 200 banana khaye'
+s = s.replace('200', '10').replace('banana', 'samosa')
+print(s)
