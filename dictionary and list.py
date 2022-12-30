@@ -7,3 +7,11 @@ if q == 1:
         for i in stockPrices[k]:
             sm += i
         print(f"{k} ==> {stockPrices[k]} ==> avg = {sm/len(stockPrices[k])}")
+else:
+    stock = input("Enter the name of the stock you want to input: ")
+    value = input("Enter the value of the stock")
+    if stock in stockPrices:
+        stockPrices[stock].append(value)
+    else:
+        stockPrices[stock] = value
+
