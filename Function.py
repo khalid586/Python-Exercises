@@ -1,12 +1,14 @@
-def circle_calc(radius):
-    area = 3.14 * radius**2
-    circumference = 2 * 3.14 * radius
-    diameter = 2 * radius
-    return area , circumference , diameter
+import math
 
-def main():
-    Radius = int(input("Enter the radius of the circle: "))
-    area, circumference, diameter = circle_calc(Radius)
-    print(f"{round(area,2)} {round(circumference,2)} {round(diameter,2)}")
+
+def circle_calc(radius):
+    Area = math.pi * radius**2
+    Circumference = 2 * math.pi * radius
+    Diameter = 2 * radius
+    return Area, Circumference, Diameter
+
+
 if __name__ == '__main__':
-    main()
+    Radius = float(input("Enter the radius of the circle: "))
+    area, circumference, diameter = circle_calc(Radius)
+    print(f"Area = {round(area, 2)}, Circumference =  {round(circumference, 2)} , Diameter = {round(diameter, 2)}")
